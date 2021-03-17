@@ -1,0 +1,365 @@
+@media screen and (max-width: 992px) {
+  body {
+    main {
+      .newArrivals {
+        i {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    main {
+      .new-arrivals {
+        .information {
+          h3 {
+            font-size: 24px;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    main {
+      .most-popular {
+        .information {
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1690px;
+  }
+}
+@media screen and (max-width: 920px) {
+  a {
+    width: 100%;
+    height: 100%;
+    .icon-zoom {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 1027px) {
+  .menu {
+    display: none;
+  }
+  .roww {
+    &::before {
+      content: url(../icons/shopping-bag-solid.svg);
+      position: absolute;
+      width: 17px;
+      height: 22px;
+      right: 3%;
+      top: 35%;
+    }
+    &::after {
+      content: url(../icons/user-regular.svg);
+      position: absolute;
+      width: 27px;
+      height: 22px;
+      top: 35%;
+      right: 6%;
+      padding-right: 10px;
+    }
+    text-align: center;
+    .item-right {
+      display: none !important;
+    }
+  }
+  .header-item {
+    padding-left: 390px;
+  }
+  .hamb-menu {
+    display: block !important;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .header-item {
+    padding-left: 270px;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .header-item {
+    padding-left: 180px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .header-item {
+    padding-left: 70px;
+  }
+}
+@media only screen and (max-width: 1167px) {
+  .item-right {
+    padding-right: 15px;
+  }
+}
+@media screen and(max-width:576px) {
+  .loginTitle {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .menu {
+    .menu-main {
+      li {
+        height: 40px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 965px) {
+  .carousel-1 {
+    top: -4% !important;
+  }
+  .carousel-2 { 
+    top: -30% !important;
+  }
+  .carousel-3 {
+    top: -19% !important;
+  }
+}
+@media (max-width: 1100px) {
+  .footer-copyright {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  [class*="links"] {
+    display: none;
+  }
+
+  .item-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #787878;
+
+    &::after {
+      content: attr(data-content) "+";
+      position: absolute;
+      right: 0px;
+    }
+  }
+}
+@media screen and (max-width: 1025px) {
+  .pre-sale-questions {
+    width: 102%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .faq-template {
+    width: 92%;
+    margin-left: 1.5%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .questions {
+    width: 100% !important;
+  }
+  .card {
+    width: 100% !important;
+    .btn {
+      p {
+        width: 100% !important;
+      }
+    }
+  }
+  .container {
+    width: 100% !important;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1025px) {
+  h1 {
+    padding-left: 0 !important  ;
+  }
+}
+@media screen and (max-width: 1025px) {
+  p {
+    padding-left: 0 !important;
+  }
+
+}
+@media screen and (max-width: 1025px) {
+  .page-faq {
+    margin-left: 0 !important;
+    width: 90% !important;
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .help {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .sidebar-button {
+    display: block !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .container {
+    padding: 20px 0 !important;
+    vertical-align: middle !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .card-header {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .card-header {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  h4 {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .styling {
+    margin-bottom: 30px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .btn-coll {
+    align-items: left !important;
+    justify-content: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 60px !important;
+    vertical-align: middle !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .btn-cool {
+    height: 60px !important;
+    vertical-align: middle !important ;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .paragraph {
+    width: 100%;
+    line-height: 1.8;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .paragraph {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .space {
+    height: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+.buttons-group{
+  display: flex !important;
+  flex-direction: column !important;
+}
+}
+@media screen and (max-width: 1025px){
+  .col-lg-3{
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1026px){
+  #text-right{
+    padding-left: 25px !important;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .teaBridge {
+  .custom-block--title {
+    max-width: 400px;
+    top: 40%;
+    margin-left: 20%;
+    text-align: center;
+  }
+  }
+  }
+  
+  @media screen and (max-width:1200px) {
+  .collections {
+  .content {
+    margin: 0 !important;
+  }
+  }
+  }
+  
+  @media screen and(max-width: 768px) {
+  .teaBridge {
+  .custom-block--title {
+    position: static !important;
+    color: rgb(0, 0, 0)!important;
+    margin-top: 20px;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width: 1000px) {
+  .thumb-nails-wrapper {
+    display: none;
+  }
+  .bigProduct {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center !important;
+    }
+  }
+  @media only screen and (max-width: 995px){
+    .product-details{
+      p{
+        max-width: 871px !important;
+      }
+    }
+  }
+  @media only screen and (max-width: 575px){
+    .foot-center{
+      .row{
+        padding-left: 15px !important;
+      }
+    }
+  }
+  @media only screen and (max-width: 835px){
+    #textarea{
+      width: 200px !important;
+    }
+  }
