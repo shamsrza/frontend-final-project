@@ -190,12 +190,13 @@ $(document).ready(function(){
       img.style.width = img.style.height = "";
 
       $(img)
-        .addClass("zoom-img")
+      .addClass("zoom-img")
         .css({
           position: "absolute",
           opacity: 0,
         })
         .appendTo(target);
+        
 
       return {
         init: function () {
@@ -301,8 +302,8 @@ $(document).ready(function(){
 
   $(".second-thumbnails").click(function (event) {
     event.preventDefault();
-    $("#single-wrapper-image").hide();
     $("#single-wrapper-image-second").show();
+    $("#single-wrapper-image").hide();
     $(".second-thumbnails").css({ border: "1px solid black" });
     $(".first-thumbnails").css("border", "");
   });
