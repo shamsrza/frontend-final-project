@@ -1,16 +1,16 @@
 @mixin a-list {
     color: $text-color;
-    font-size: $font-size-seccond;
+    font-size: $font-size-second;
     font-family: $font-family;
 }
 @mixin label-list {
-    font-size: $font-size-seccond;
+    font-size: $font-size-second;
         color: $primary_color;
         font-weight: $font-weight;
         font-family: $font-family;
 }
 @mixin label {
-    font-size: $font-size-seccond;
+    font-size: $font-size-second;
         color: $primary_color;
         font-weight: $font-weight;
         font-family: $font-family;
@@ -33,7 +33,7 @@
                 padding-top: 3px;
                 margin: 0;
                 font-weight: $font-weight;
-                font-size: $font-size-seccond;
+                font-size: $font-size-second;
                 text-transform: capitalize;
                 text-decoration: none;
 }
@@ -76,7 +76,7 @@
                   background-color: rgb(18, 160, 160);
                   color: $background-color;
                   font-weight: $font-weight;
-                  font-size: $font-size-seccond;
+                  font-size: $font-size-second;
                   text-transform: uppercase;
                   text-align: center;
 }
@@ -87,14 +87,14 @@
     border: none;
 }
 @mixin faq-a {  
-    font-size: $font-size-seccond;
+    font-size: $font-size-second;
           color: black;
           font-weight: $font-weight;
           text-decoration: underline;
 }
 @mixin information {
     color: $text-color;
-      font-size: $font-size-seccond;
+      font-size: $font-size-second;
       font-family: $font-family;
       font-style: normal;
       font-weight: $font-weight-third;
@@ -111,7 +111,7 @@
             border-radius: 20px;
             background-color: gray;
             color: $background-color;
-            font-size: $font-size-seccond;
+            font-size: $font-size-second;
             font-family: $font-family;
 }
 @mixin icon-eye {
@@ -154,7 +154,7 @@
           border: 2px solid $background-color;
 }
 @mixin badge-list {
-    font-size: $font-size-seccond;
+    font-size: $font-size-second;
           font-weight: $font-weight-third;
           line-height: 18px;
           letter-spacing: 0.2px;
@@ -204,7 +204,7 @@
     border-bottom: 1px solid;
       display: inline-block;
       margin-bottom: 25px;
-      font-size: $font-size-seccond;
+      font-size: $font-size-second;
       font-weight: $font-weight-second;
 }
 @mixin border {
@@ -224,7 +224,7 @@
 @mixin submenu-list {
     display: inline-block;
     padding: 10px 0;
-    font-size: $font-size-seccond;
+    font-size: $font-size-second;
     color: $text-color;
     transition: color 0.3s ease;
     text-decoration: none;

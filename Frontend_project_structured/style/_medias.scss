@@ -85,12 +85,14 @@
     .header-item {
       padding-left: 390px;
     }
-    .hamburger-menu {
+
+    .hamb-menu {
       display: block !important;
       position: absolute;
       top: 35%;
       left: 5%;
     }
+    
   }
   @media only screen and (max-width: 800px) {
     .header-item {
