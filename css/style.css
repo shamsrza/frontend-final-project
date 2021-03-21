@@ -2046,6 +2046,217 @@ body .tea-collections .description {
   font-style: normal;
   font-weight: 400;
 }
+body #main-topic {
+  margin-bottom: 10%;
+  width: 90%;
+}
+@media screen and (max-width: 1550px) {
+  body #main-topic {
+    width: 95%;
+  }
+}
+body #main-topic .crumb-wr {
+  padding: 13px 0 13px;
+  color: #787878;
+  background-color: #fff;
+}
+body #main-topic .crumb-wr .container {
+  margin-left: 9%;
+  padding-left: 0;
+}
+@media screen and (max-width: 1550px) {
+  body #main-topic .crumb-wr .container {
+    margin-left: 1%;
+  }
+}
+body #main-topic .crumb-wr .container .bredcrumb {
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+body #main-topic .crumb-wr .container .bredcrumb .bredcrumb-item {
+  color: #787878;
+}
+body #main-topic .crumb-wr .container .bredcrumb .bredcrumb-item a {
+  color: #787878;
+}
+body #main-topic .crumb-wr .container .bredcrumb .bredcrumb-item span {
+  padding: 0 5px;
+}
+body #main-topic .container {
+  margin-left: 9%;
+  padding-left: 0;
+}
+@media screen and (max-width: 1550px) {
+  body #main-topic .container {
+    margin-left: 0;
+  }
+}
+body #main-topic .container .section-header {
+  margin-bottom: 7%;
+  margin-left: 1.5%;
+}
+@media screen and (max-width: 1550px) {
+  body #main-topic .container .section-header {
+    margin-left: 3%;
+  }
+}
+body #main-topic .container .section-header h2 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  padding-left: 10px;
+}
+body #main-topic .container .row {
+  width: 90%;
+  margin-left: 5%;
+  padding: 0;
+}
+@media screen and (max-width: 1550px) {
+  body #main-topic .container .row {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+body #main-topic .container .row .form-vertical {
+  width: 100%;
+  padding: 100px 50px;
+  margin: 0;
+}
+body #main-topic .container .row .form-vertical h3 {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+body #main-topic .container .row .form-vertical p {
+  margin-bottom: 35px;
+  line-height: 24px;
+  color: #787878;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body #main-topic .container .row .form-vertical #customer-login label {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body #main-topic .container .row .form-vertical #customer-login #email {
+  width: 100%;
+  height: 50px;
+}
+body #main-topic .container .row .form-vertical #customer-login .fas {
+  width: 18px;
+  height: 18px;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  display: none;
+}
+body #main-topic .container .row .form-vertical .text {
+  color: #787878;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+body #main-topic .container .row .form-vertical .btn {
+  color: #fff;
+  border-color: #17a8a3;
+  background-color: #17a8a3;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+body #main-topic .container .row .form-vertical .btn:hover {
+  background-color: #0f726f;
+}
+body #main-topic .container .row .form-vertical .btn-primary {
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  border-color: #e13f3f;
+  background-color: #e13f3f;
+}
+body #main-topic .container .row .form-vertical .btn-primary:hover {
+  background-color: #9e2a36;
+}
+body #main-topic .container .row .form-vertical .recower-password a {
+  color: #787878;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body #main-topic .container .row .form-vertical .recower-password span {
+  color: #787878;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body #main-topic .container .wrapper {
+  background-color: #fafafa;
+  width: 100%;
+}
+body #main-topic .container .wrapper .new-customer-wrapper {
+  width: 100%;
+  padding: 80px 60px;
+  margin: 0;
+}
+body #main-topic .container .wrapper .new-customer-wrapper h3 {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+body #main-topic .container .wrapper .new-customer-wrapper p {
+  margin-bottom: 35px;
+  line-height: 24px;
+  color: #787878;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form label {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form #text {
+  width: 100%;
+  height: 50px;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form #text {
+  width: 100%;
+  height: 50px;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form #email {
+  width: 100%;
+  height: 50px;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form #pass {
+  width: 100%;
+  height: 50px;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form .btn {
+  color: #fff;
+  border-color: #17a8a3;
+  background-color: #17a8a3;
+  padding: 10px 40px;
+}
+body #main-topic .container .wrapper .new-customer-wrapper #register-form .btn:hover {
+  background-color: #0f726f;
+}
 body .img_newsletter {
   min-height: 800px;
   background-attachment: fixed;

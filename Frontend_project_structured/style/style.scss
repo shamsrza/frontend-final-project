@@ -1136,22 +1136,20 @@ body {
       width: 50%;
       height: 650px;
 
-      .video{
-
-        .fancybox{
-          i{
-            font-size:60px;
+      .video {
+        .fancybox {
+          i {
+            font-size: 60px;
             border: 5px solid white;
             border-radius: 50% 50%;
             padding: 25px 28px;
             color: white;
             margin-top: 26%;
-            margin-left: 45%; 
-            
+            margin-left: 45%;
+
             @media screen and (max-width: 1550px) {
               margin-top: 35%;
             }
-            
           }
         }
       }
@@ -1901,6 +1899,223 @@ body {
     }
   }
   //Product details ends
+
+  // Login starts
+  #main-topic {
+    margin-bottom: 10%;
+    width: 90%;
+
+    @media screen and (max-width: 1550px) {
+      width: 95%;
+    }
+    .crumb-wr {
+      padding: 13px 0 13px;
+      color: $text-color;
+      background-color: $background-color;
+
+      .container {
+        margin-left: 9%;
+        padding-left: 0;
+        @media screen and (max-width: 1550px) {
+          margin-left: 1%;
+        }
+        .bredcrumb {
+          list-style: none;
+          display: flex;
+          font-size: $font-size-second;
+          font-family: $font-family;
+          .bredcrumb-item {
+            color: $text-color;
+            a {
+              color: $text-color;
+            }
+            span {
+              padding: 0 5px;
+            }
+          }
+        }
+      }
+    }
+    .container {
+      margin-left: 9%;
+      padding-left: 0;
+      @media screen and (max-width: 1550px) {
+        margin-left: 0;
+      }
+      .section-header {
+        margin-bottom: 7%;
+        margin-left: 1.5%;
+        @media screen and (max-width: 1550px) {
+          margin-left: 3%;
+        }
+        h2 {
+          font-weight: 700;
+          font-family: $font-family;
+          font-size: 30px;
+          padding-left: 10px;
+        }
+      }
+
+      .row {
+        width: 90%;
+        margin-left: 5%;
+        padding: 0;
+        @media screen and (max-width: 1550px) {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .form-vertical {
+          width: 100%;
+          padding: 100px 50px;
+          margin: 0;
+
+          h3 {
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 600;
+          }
+          p {
+            margin-bottom: 35px;
+            line-height: $line-height;
+            color: $text-color;
+            font-size: $font-size-second;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 400;
+          }
+          #customer-login {
+            label {
+              font-weight: $font-weight;
+              font-size: $font-size-second;
+              text-transform: capitalize;
+              font-family: $font-family;
+            }
+            #email {
+              width: 100%;
+              height: 50px;
+            }
+            .fas {
+              width: 18px;
+              height: 18px;
+              background-color: #dc3545;
+              color: $background-color;
+              border-radius: 50%;
+              padding: 2px 6px;
+              display: none;
+            }
+          }
+          .text {
+            color: $text-color;
+            font-size: $font-size-second;
+            font-family: $font-family;
+          }
+          .btn {
+            color: $background-color;
+            border-color: $secondary_color;
+            background-color: $secondary_color;
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            &:hover {
+              background-color: #0f726f;
+            }
+          }
+          .btn-primary {
+            padding: 10px;
+            width: 100%;
+            color: $background-color;
+            border-color: #e13f3f;
+            background-color: #e13f3f;
+            &:hover {
+              background-color: #9e2a36;
+            }
+          }
+          .recower-password {
+            a {
+              color: $text-color;
+              font-size: $font-size-second;
+              font-family: $font-family;
+              font-style: normal;
+              font-weight: 400;
+            }
+            span {
+              color: $text-color;
+              font-size: $font-size-second;
+              font-family: $font-family;
+              font-style: normal;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+      .wrapper {
+        background-color: #fafafa;
+        width: 100%;
+        .new-customer-wrapper {
+          width: 100%;
+          padding: 80px 60px;
+          margin: 0;
+
+          h3 {
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 600;
+          }
+          p {
+            margin-bottom: 35px;
+            line-height: $line-height;
+            color: $text-color;
+            font-size: $font-size-second;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 400;
+          }
+          #register-form {
+            label {
+              font-weight: $font-weight;
+              font-size: $font-size-second;
+              text-transform: capitalize;
+              font-family: $font-family;
+            }
+            #text {
+              width: 100%;
+              height: 50px;
+            }
+            #text {
+              width: 100%;
+              height: 50px;
+            }
+            #email {
+              width: 100%;
+              height: 50px;
+            }
+            #pass {
+              width: 100%;
+              height: 50px;
+            }
+            .btn {
+              color: $background-color;
+              border-color: $secondary_color;
+              background-color: $secondary_color;
+              padding: 10px 40px;
+              &:hover {
+                background-color: #0f726f;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Login ends
 
   // newsletter starts
   .img_newsletter {
