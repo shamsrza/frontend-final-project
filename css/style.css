@@ -657,9 +657,6 @@ body .header .container-head .row-head .item-right a .countpill {
 body .carousel-inner .carousel-item {
   position: relative;
 }
-body .carousel-inner .carousel-item img {
-  padding-top: 75px;
-}
 body .carousel-inner .carousel-item .carousel-1,
 body .carousel-inner .carousel-item .carousel-2,
 body .carousel-inner .carousel-item .carousel-3 {
@@ -1307,6 +1304,20 @@ body .container-fluid .right {
   width: 50%;
   height: 650px;
 }
+body .container-fluid .right .video .fancybox i {
+  font-size: 60px;
+  border: 5px solid white;
+  border-radius: 50% 50%;
+  padding: 25px 28px;
+  color: white;
+  margin-top: 26%;
+  margin-left: 45%;
+}
+@media screen and (max-width: 1550px) {
+  body .container-fluid .right .video .fancybox i {
+    margin-top: 35%;
+  }
+}
 body .shopify-section {
   overflow: hidden;
 }
@@ -1824,7 +1835,7 @@ body .teaBridge .rte {
   color: #787878;
 }
 body .tea-collections {
-  margin: 15% 0;
+  margin: 15% 0 70% 0;
   padding: 0;
   width: 100%;
   border: 1px solid white;
@@ -2137,7 +2148,6 @@ body .carusel .container .owl-three .conditions .content .find_out {
 }
 body .foot-sum {
   font-size: 12px;
-  margin-top: 70%;
 }
 body .foot-sum .foot-center {
   padding: 42px 0 55px;
