@@ -55,10 +55,10 @@
     <title>Blog</title>
   </head>
   <body>
-    <!-- header starts-->
-    <header class="header">
-      <div class="containerr">
-        <div class="roww">
+    <!-- Header starts -->
+    <div class="header">
+      <div class="container-head">
+        <div class="row-head">
           <div class="header-item item-left">
             <div class="hamb-menu">
               <i class="fas fa-bars"></i>
@@ -75,7 +75,7 @@
               <ul class="menu-main">
                 <li class="child">
                   <a href="#">TEAS</a>
-                  <div class="sub-menu huge-menu huge-menu-column-6">
+                  <div class="sub-menu big-menu big-menu-column-6">
                     <div class="list-item text-left">
                       <h6 class="title">Shop buy</h6>
                       <ul>
@@ -137,7 +137,7 @@
                     <div class="list-item text-left">
                       <h6 class="title">Featured products</h6>
                       <ul class="ul-1">
-                        <div class="dd-content">
+                        <div class="dropdown-content">
                           <img src="./image/card-tea-2.jpg" alt="" />
                           <h5>Darturein magnis meros laciniado</h5>
                         </div>
@@ -152,7 +152,7 @@
                           <div class="border-3"></div>
                         </div>
                         <p class="detail">+ Details</p>
-                        <div class="dd-content">
+                        <div class="dropdown-content">
                           <img src="./image/card-tea-1.jpg" alt="" />
                           <h5>Darturein magnis meros laciniado</h5>
                         </div>
@@ -176,7 +176,7 @@
                         style="width: 100%"
                       />
                       <div
-                        class="huge-menu-content d-flex"
+                        class="big-menu-content d-flex"
                         style="justify-content: space-between"
                       >
                         <h5 style="font-size: 12px; padding-top: 15px">
@@ -197,7 +197,7 @@
                 </li>
                 <li class="child">
                   <a href="#">LOOSE LEAF TEA</a>
-                  <div class="sub-menu huge-menu huge-menu-column-6">
+                  <div class="sub-menu big-menu big-menu-column-6">
                     <div class="list-item text-center">
                       <h6 class="title-1">Black Tea</h6>
                       <a href="#">
@@ -301,7 +301,7 @@
                   </div>
                 </li>
                 <li>
-                  <a href="./faq.html">FAQS</a>
+                  <a href="faq.html">FAQS</a>
                 </li>
               </ul>
             </nav>
@@ -320,12 +320,12 @@
           </div>
         </div>
       </div>
-    </header>
-    <!-- header ends-->
+    </div>
+    <!-- Header ends-->
 
     <!-- blog starts -->
-    <div class="container">
-      <section class="crumb-wr">
+    <div class="container" id="blog">
+      <div class="crumb-wr">
         <div class="container-fluid" style="height: 35px">
           <div class="row">
             <ul class="breadcrumb">
@@ -339,8 +339,8 @@
             </ul>
           </div>
         </div>
-      </section>
-      <div class="container-fluid" style="height: 84px">
+      </div>
+      <div class="container-fluid" id="heading">
         <div class="row">
           <div class="col-lg-3">
             <h1 class="title">News</h1>
@@ -350,7 +350,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-3" style="padding-left: 55px">
-            <div class="container-fluid">
+
+            <div class="container" id="left-blocks">
               <div class="sidebarBlock search">
                 <h3 class="sidebarBlock heading">Search</h3>
                 <div class="search-input">
@@ -366,8 +367,8 @@
                   />
                 </div>
               </div>
-            </div>
-            <div class="container-fluid">
+              </div>
+              <div class="container">
               <div class="sidebar-blog">
                 <h3 class="sidebarBlog-heading">Blog Categories</h3>
                 <div class="sidebarBlog-content">
@@ -384,11 +385,11 @@
                   </ul>
                 </div>
               </div>
-            </div>
+             </div>
 
-            <!-- sidebar -->
-            <section class="sidebar-recent">
-              <div class="container-fluid">
+             <!-- sidebar -->
+             <div class="sidebar-recent">
+              <div class="container">
                 <div class="recent-blog">
                   <h3 class="recentBlog-heading">Recent Posts</h3>
                   <div class="recentposts-list">
@@ -440,11 +441,11 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
 
             <!--Best seller-->
-            <section class="sellers-section">
-              <div class="container-fluid">
+            <div class="sellers-section">
+              <div class="container">
                 <div class="best-sellers">
                   <h3>Best Sellers <a href="#">View All</a></h3>
                   <div class="seller-list-products">
@@ -553,20 +554,20 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
 
             <!--herbal -->
-            <section class="herbalSection">
-              <div class="container-fluid">
+            <div class="herbalSection">
+              <div class="container">
                 <div class="herbal-tea-reklam">
                   <a href="#"><img src="./image/reklam.webp" alt="" /></a>
                 </div>
               </div>
-            </section>
+            </div>
             <!--herbal ends-->
 
-            <section class="cms-section">
-              <div class="container-fluid">
+            <div class="cms-section">
+              <div class="container">
                 <div class="cms">
                   <h3 class="cms-heading">Custom CMS Block</h3>
                   <div class="content">
@@ -583,12 +584,12 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
           </div>
           <div class="col-lg-9 col-md-12" id="text-right">
             <div class="featured-blog-image">
               <div class="link-image">
-                <img src="./image/03b-min.webp  " alt="" />
+                <img src="./image/03b-min.webp  " id="right-img" alt="" />
               </div>
               <div class="featured-blog-content">
                 <ul>
@@ -663,18 +664,19 @@
     <!-- blog ends -->
 
     <!--Footer-->
-    <footer>
+    <div class="foot-sum">
       <div class="foot-center">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-lg-3">
-              <div class="footer-logo">
+              <div class="item-logo-item-1">
                 <img
                   src="https://cdn.shopify.com/s/files/1/0418/1904/6039/files/hl-tea-and-coffee-logo_x40.png?v=1600340174"
                   alt=""
                 />
               </div>
-              <div class="footer-text">
+
+              <div class="item-logo-2">
                 <p style="margin: 0px 0px 28px">
                   685 Market Street,
                   <br />
@@ -693,8 +695,8 @@
               </div>
             </div>
             <div class="footer-row col-md-6 col-lg-2">
-              <h5 class="footer-heading">Shop</h5>
-              <div class="footer-list-first">
+              <h5 class="footer-heading" id="heading1">Shop</h5>
+              <div class="links1">
                 <ul>
                   <li><a href="#">Teas</a></li>
                   <li><a href="#">Teaware</a></li>
@@ -707,7 +709,7 @@
             </div>
             <div class="footer-row col-md-6 col-lg-2">
               <h5 class="footer-heading" id="heading2">About Us</h5>
-              <div class="footer-list-second">
+              <div class="links2">
                 <ul>
                   <li><a href="./blog.html">Blog</a></li>
                   <li><a href="#">Press Releases</a></li>
@@ -719,8 +721,8 @@
             </div>
 
             <div class="footer-row col-md-6 col-lg-2">
-              <h5 class="footer-heading">Customer Care</h5>
-              <div class="footer-list-third">
+              <h5 class="footer-heading" id="heading3">Customer Care</h5>
+              <div class="links3">
                 <ul>
                   <li><a href="#">Shipping</a></li>
                   <li><a href="#">Returns Policy</a></li>
@@ -732,7 +734,7 @@
             </div>
             <div class="footer-row item-3 col-md-6 col-lg-3">
               <h5>Follow Us</h5>
-              <div class="payments">
+              <div class="social-icons">
                 <a
                   target="_blank"
                   href="https://www.facebook.com/shopify"
@@ -781,7 +783,7 @@
             </div>
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
-              <div class="payments">
+              <div class="social-icons">
                 <i class="fab fa-cc-visa"></i>
                 <i class="fab fa-cc-mastercard"></i>
                 <i class="fab fa-cc-amex"></i>
@@ -793,12 +795,13 @@
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+    <!--Footer end-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/blog.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
